@@ -1,5 +1,7 @@
 # ConsoleApp Check Nullable in .NET C#
 
+C# Null Safety: Write Robust and Error-Free Code
+
 https://towardsdev.com/c-null-safety-write-robust-and-error-free-code-72ad127fff41
 
 ## Nullable Reference Types (NRTs)
@@ -83,6 +85,18 @@ public void SendEmail(string email)
 }
 ```
 
-## Summary
 * **API Design**: It improves its own documentation and adheres to consumer safety by making sure that APIs acknowledge the fact that they sometimes return nulls.
 * **Databases**: working with possibly incomplete datasets generally requires nullable types to deal with missing data in a graceful manner.
+
+## 📌 Expert tips for null safety
+* Activate null-ref types to intercept null problems at compile time: Enable Turn on NRTs on your project.
+* Default to Default Values: Use null-coalescing operators, in turn, to handle any null gracefully.
+* Overuse of Null Forgiveness Operator(!): The null-forgiving operator hides possible bugs, so do not abuse it.
+* Validate inputs: Always validate arguments /string, cant restrain conditional modification/ to make certain that they are not null.
+* Employ Null Safe Supporting Libraries-Several modern libraries and frameworks are now being built considering null safety.
+
+## 🔑 Main Points
+* Null safety is provided in C#, where nullable reference types, null coalescing operators, and null conditional operators(?.) serve as powerful mainstays.
+* If you enable the nullable reference types (#nullable), you will be catching the null error as a compile-time error.
+* Employ null-coalescing (??) and null-conditional operators(?.) to make a point of helping handle the null values.
+* The power demonstrated in null safety by practical examples, e.g. user input handling, safe object member access, and explicit null checks, is the most convincing.
