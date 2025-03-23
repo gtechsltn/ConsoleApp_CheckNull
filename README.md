@@ -1,7 +1,6 @@
-# ConsoleApp Check Nullable in .NET C#
+# Check Nullable in .NET ConsoleApp C#
 
-C# Null Safety: Write Robust and Error-Free Code
-
+## C# Null Safety: Write Robust and Error-Free Code
 https://towardsdev.com/c-null-safety-write-robust-and-error-free-code-72ad127fff41
 
 ## Nullable Reference Types (NRTs)
